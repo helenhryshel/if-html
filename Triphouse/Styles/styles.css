@@ -139,3 +139,165 @@ p {
   width: 265px;
   height: 16px;
 }
+
+/*main page's styles*/
+.main-page-conteiner {
+  width: 1440px;
+  min-height: 900px;
+  background: url("../images/Houses-on-water.jpg");
+}
+
+.header {
+  width: 1500px;
+  height: 46px;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.logo {
+  width: 205px;
+  height: 40px;
+  margin-top: 51px;
+  margin-left: 104px;
+  background-image: url("../images/sprite.png");
+}
+
+.logo-night {
+  width: 30px;
+  height: 30px;
+  margin-top: 58px;
+  margin-left: 45px;
+  background-position: 325px -11px;
+  background-image: url("../images/sprite.png");
+}
+.logo-account {
+  width: 40px;
+  height: 40px;
+  margin-top: 51px;
+  margin-left: 25px;
+  background-position: 295px -1px;
+  background-image: url("../images/sprite.png");
+}
+
+.header-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 201px;
+  height: 40px;
+  margin-top: 56px;
+  margin-left: 685px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+.main {
+  width: 50px;
+  border: none;
+  color: #f5bd41;
+  margin-left: 1px;
+  margin-top: 9px;
+}
+
+.main-title {
+  width: 542px;
+  height: 118px;
+  margin: 247px 794px 100px 104px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: white;
+}
+
+.annotation-search {
+  display: flex;
+  justify-content: space-between;
+  width: 640px;
+  height: 21px;
+  margin-top: 100px;
+  margin-left: 128px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+
+.search {
+  display: flex;
+  width: 1235px;
+  height: 64px;
+  margin-top: 23px;
+  margin-left: 104px;
+}
+
+.destination {
+  width: 467px;
+  height: 64px;
+  border-radius: 8px 0 0 8px;
+  border: 3px solid #f3f3f4;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #383838;
+  padding-left: 25px;
+}
+
+.check {
+  width: 258px;
+  height: 64px;
+  border-radius: 8px;
+  border: 3px solid #f5bd41;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #383838;
+  text-align: center;
+}
+
+.people {
+  width: 314px;
+  height: 63px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #383838;
+  text-align: center;
+  border: 3px solid #f3f3f4;
+  padding-bottom: 0;
+  padding-top: 3px;
+}
+
+.button {
+  width: 192px;
+  height: 64px;
+  background-color: #3077c6;
+  border-radius: 8px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.apps {
+  display: flex;
+  width: 270px;
+  height: 40px;
+  margin: 120px 584px 120px 585px;
+}
+
+.google {
+  width: 135px;
+  height: 40px;
+  background-image: url("../images/sprite.png");
+  background-position: 255px -1px;
+}
+
+.appstore {
+  width: 120px;
+  height: 40px;
+  background-image: url("../images/sprite.png");
+  background-position: 120px -42px;
+}
