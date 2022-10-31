@@ -6,9 +6,8 @@
   box-sizing: border-box;
 }
 
-.conteiner {
-  width: 1440px;
-  height: 569px;
+.adventage-conteiner {
+  min-width: 1440px;
   margin: 0 auto;
   padding: 12px;
 }
@@ -19,7 +18,7 @@
   flex-direction: column;
 }
 
-hr {
+.border-line {
   background-color: #f5bd41;
   height: 4px;
   width: 100px;
@@ -27,7 +26,7 @@ hr {
   margin-left: 660px;
 }
 
-.title {
+.heading {
   font-size: 40px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -37,16 +36,15 @@ hr {
   text-align: center;
 }
 
-.navigation-conteiner {
+.adventage-navigation-conteiner {
   width: auto;
   display: flex;
   text-align: center;
   justify-content: center;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 0 40px 124px 40px;
 }
 
-.nav {
+.adventage-content-item {
   display: inline-block;
   width: 295px;
   height: 184px;
@@ -55,7 +53,7 @@ hr {
   font-family: sans-serif;
 }
 
-p {
+.icon-text {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -64,7 +62,7 @@ p {
 
 /* Footer's styles*/
 .footer-conteiner {
-  width: 1440px;
+  min-width: 1440px;
   height: 625px;
   margin: 10px auto;
   padding: 16px;
@@ -83,13 +81,22 @@ p {
   justify-content: space-between;
   font-size: 20px;
   align-items: flex-start;
-  width: 193px;
-  height: 211px;
-  margin: 105px 138px 100px 88px;
+  width: 239px;
+  height: 223px;
+  margin: 105px 138px 100px 46px;
 }
 
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 24px;
+}
 .about-title {
   font-weight: 500;
+  margin-bottom: 24px;
+  margin-left: 42px;
 }
 
 .footer-property {
@@ -100,13 +107,15 @@ p {
   justify-content: space-between;
   font-size: 20px;
   align-items: flex-start;
-  width: 133px;
+  width: 192px;
   height: 305px;
-  margin: 105px 198px 40px 85px;
+  margin: 105px 198px 40px 37px;
 }
 
 .property-title {
   font-weight: 500;
+  margin-bottom: 24px;
+  margin-left: 41px;
 }
 
 .footer-support {
@@ -117,15 +126,15 @@ p {
   justify-content: space-between;
   font-size: 20px;
   align-items: flex-start;
-  width: 232px;
+  width: 272px;
   height: 117px;
-  margin-left: 85px;
-  margin-top: 105px;
-  margin-bottom: 100px;
+  margin: 105px 0 100px 28px;
 }
 
 .support-title {
   font-weight: 500;
+  margin-bottom: 24px;
+  margin-left: 41px;
 }
 
 .copyright {
