@@ -169,13 +169,23 @@
   justify-content: space-between;
   font-size: 20px;
   align-items: flex-start;
-  width: 193px;
-  height: 211px;
+  width: 239px;
+  height: 223px;
   margin: 105px 138px 100px 88px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 24px;
 }
 
 .about-title {
   font-weight: 500;
+  margin-bottom: 24px;
+  margin-left: 42px;
 }
 
 .footer-property {
@@ -186,13 +196,15 @@
   justify-content: space-between;
   font-size: 20px;
   align-items: flex-start;
-  width: 133px;
+  width: 192px;
   height: 305px;
   margin: 105px 198px 40px 85px;
 }
 
 .property-title {
   font-weight: 500;
+  margin-bottom: 24px;
+  margin-left: 41px;
 }
 
 .footer-support {
@@ -203,15 +215,15 @@
   justify-content: space-between;
   font-size: 20px;
   align-items: flex-start;
-  width: 232px;
+  width: 272px;
   height: 117px;
-  margin-left: 85px;
-  margin-top: 105px;
-  margin-bottom: 100px;
+  margin: 105px 0 100px 28px;
 }
 
 .support-title {
   font-weight: 500;
+  margin-bottom: 24px;
+  margin-left: 41px;
 }
 
 .copyright {
@@ -247,7 +259,7 @@
   height: 40px;
   margin-top: 51px;
   margin-left: 104px;
-  background-image: url("../images/sprite.png");
+  background-image: url("../images/header-icons.svg");
 }
 
 .logo-night {
@@ -255,16 +267,16 @@
   height: 30px;
   margin-top: 58px;
   margin-left: 45px;
-  background-position: 325px -11px;
-  background-image: url("../images/sprite.png");
+  background-position: 347px -5px;
+  background-image: url("../images/header-icons.svg");
 }
 .logo-account {
-  width: 40px;
+  width: 41px;
   height: 40px;
   margin-top: 51px;
   margin-left: 25px;
-  background-position: 295px -1px;
-  background-image: url("../images/sprite.png");
+  background-position: 317px 0;
+  background-image: url("../images/header-icons.svg");
 }
 
 .header-text {
@@ -281,8 +293,7 @@
 }
 .main {
   width: 50px;
-  border: none;
-  color: #f5bd41;
+  border: 2px solid #f5bd41;
   margin-left: 1px;
   margin-top: 9px;
 }
@@ -372,13 +383,6 @@
   width: 270px;
   height: 40px;
   margin: 120px 584px 120px 585px;
-}
-
-.google {
-  width: 135px;
-  height: 40px;
-  background-image: url("../images/sprite.png");
-  background-position: 255px -1px;
 }
 
 .appstore {
