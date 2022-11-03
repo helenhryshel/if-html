@@ -1,0 +1,39 @@
+.adventage-conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 110px 60px;
+  row-gap: 50px;
+  font-weight: 500;
+}
+
+.border-line {
+  background-color: #f5bd41;
+  height: 4px;
+  width: 100px;
+  border: none;
+}
+
+.heading {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.adventage-content-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  font-family: sans-serif;
+}
+
+.adventage-navigation-conteiner {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 24px;
+}
