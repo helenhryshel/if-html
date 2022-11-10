@@ -1,0 +1,285 @@
+@import url("fonts.css");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 24px;
+}
+
+/*top-section's styles*/
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  min-height: 1202px;
+  background: url("../Images/castelmezzano.png");
+}
+
+.top-section__header {
+  display: flex;
+  font-weight: 400;
+  color: #ffffff;
+  padding-right: 101px;
+}
+
+.top-section__logo {
+  width: 205px;
+  height: 40px;
+  margin-top: 51px;
+  margin-left: 104px;
+  background-image: url("../Images/header-icons.svg");
+}
+
+.top-section__logo-night {
+  border: none;
+  background-color: unset;
+  width: 30px;
+  height: 30px;
+  margin-top: 58px;
+  margin-left: 45px;
+  background-position: 347px -5px;
+  background-image: url("../Images/header-icons.svg");
+}
+.top-section__logo-account {
+  border: none;
+  background-color: unset;
+  cursor: grab;
+  width: 40px;
+  height: 40px;
+  margin-top: 51px;
+  margin-left: 25px;
+  background-position: 316px 0;
+  background-image: url("../Images/header-icons.svg");
+}
+
+.top-section__header-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 201px;
+  height: 40px;
+  margin-top: 56px;
+  margin-left: 685px;
+  font-weight: 400;
+  font-size: 24px;
+}
+.top-section__main {
+  width: 50px;
+  border: 2px solid #f5bd41;
+  margin-left: 1px;
+  margin-top: 9px;
+}
+
+.top-section__main-title {
+  width: 542px;
+  height: 118px;
+  margin: 195px 794px 99px 104px;
+  font-size: 50px;
+  color: white;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  width: 1286px;
+  font-size: 18px;
+  padding: 0 593px 24px 53px;
+  color: #ffffff;
+}
+
+.top-section__search-box {
+  background-color: #ffffff;
+  width: 1232px;
+  border-radius: 8px;
+}
+
+.top-section__search {
+  display: flex;
+  width: 1234px;
+  height: 64px;
+  border-radius: 8px;
+  padding-left: 7px;
+}
+
+.top-section__destination {
+  width: 471px;
+  height: 64px;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  color: #383838;
+  padding-left: 19px;
+  background-color: #ffffff;
+}
+
+.top-section__check {
+  width: 266px;
+  height: 64px;
+  border-radius: 8px;
+  border: 3px solid #f5bd41;
+  font-weight: 400;
+  font-size: 18px;
+  color: #383838;
+  text-align: center;
+}
+
+.top-section__people {
+  width: 323px;
+  height: 63px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #383838;
+  text-align: center;
+  border: none;
+}
+
+.top-section__button {
+  width: 196px;
+  height: 64px;
+  background-color: #3077c6;
+  border-radius: 8px;
+  border: none;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.top-section__apps {
+  display: flex;
+  justify-content: space-around;
+  width: 287px;
+  height: 40px;
+  padding-top: 119px;
+}
+
+/*Advantage's" style*/
+.advantage-container {
+  min-width: 1440px;
+  height: 569px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.advantage-container__title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.advantage-container__heading-title {
+  font-size: 40px;
+  margin-top: 112px;
+  margin-bottom: 20px;
+  height: 45px;
+  text-align: center;
+}
+
+.advantage-container__border-line {
+  background-color: #f5bd41;
+  height: 4px;
+  width: 100px;
+  border: none;
+}
+
+.advantage-container__navigation {
+  width: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0 40px 124px 40px;
+}
+
+.advantage-container__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 295px;
+  margin: 50px 10px 0 6px;
+  padding: 30px;
+}
+
+.advantage-container__image-support {
+  width: 75px;
+  height: 92px;
+  gap: 30px;
+  background-position: 349px 1px;
+  background-image: url("../Images/advantage-icons.svg");
+}
+
+.advantage-container__image-communicate {
+  width: 84px;
+  height: 92px;
+  gap: 30px;
+  background-position: 274px -5px;
+  background-image: url("../Images/advantage-icons.svg");
+}
+
+.advantage-container__image-booking {
+  width: 103px;
+  height: 92px;
+  gap: 30px;
+  background-position: 190px -8px;
+  background-image: url("../Images/advantage-icons.svg");
+}
+
+.advantage-container__image-reviews {
+  width: 87px;
+  height: 92px;
+  gap: 30px;
+  background-position: 87px -2px;
+  background-image: url("../Images/advantage-icons.svg");
+}
+
+.advantage-container__icon-text {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 56px;
+}
+
+/* Footer's styles*/
+.footer {
+  width: 1440px;
+  height: 625px;
+  margin: auto;
+  padding: 118px 100px 117px 60px;
+  background-color: #10367c;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 34px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.footer__items {
+  width: 32.6%;
+}
+
+.items__size {
+  font-weight: 500;
+}
+
+.footer__copyright {
+  display: flex;
+  color: #ffffff;
+  flex-direction: column;
+  font-size: 14px;
+  align-items: flex-start;
+  margin: 0 0 87px 42px;
+  font-weight: 400;
+  width: 265px;
+  height: 16px;
+}
