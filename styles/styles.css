@@ -82,9 +82,10 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1440px;
+  height: 100vh;
   min-height: 1202px;
-  background: url("../Images/castelmezzano.png");
+  background-image: url("../Images/castelmezzano.png");
+  background-repeat: no-repeat;
 }
 
 .top-section__header {
