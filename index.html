@@ -44,38 +44,46 @@
             to live, work or just relax
           </h1>
         </div>
-        <div class="top-section__search-container">
+        <form>
           <div class="label">
             <div>
               <label for="destination">Your destination or hotel name</label>
             </div>
             <div><label for="check">Check-in — Check-out</label></div>
           </div>
-          <div class="top-section__search-box">
+          <div class="top-section__search-container">
             <div class="top-section__search">
-              <input
-                class="top-section__destination"
-                type="text"
-                id="destination"
-                placeholder="New York"
-              />
-              <input
-                class="top-section__check"
-                type="text"
-                id="check"
-                placeholder="Tue 15 Sept — Sat 19 Sept"
-              />
-              <input
-                class="top-section__people"
-                type="text"
-                placeholder="2 Adults — 0 Children — 1 Room"
-              />
-              <button class="top-section__button items__size" type="submit">
-                Search
-              </button>
+              <div class="top-section__elements">
+                <input
+                  class="top-section__destination"
+                  type="text"
+                  id="destination"
+                  placeholder="New York"
+                />
+              </div>
+              <div class="top-section__elements">
+                <input
+                  class="top-section__check"
+                  type="text"
+                  id="check"
+                  placeholder="Tue 15 Sept — Sat 19 Sept"
+                />
+              </div>
+              <div class="top-section__elements">
+                <input
+                  class="top-section__people"
+                  type="text"
+                  placeholder="2 Adults — 0 Children — 1 Room"
+                />
+              </div>
+              <div>
+                <button class="top-section__button items__size" type="submit">
+                  Search
+                </button>
+              </div>
             </div>
           </div>
-        </div>
+        </form>
         <div class="search-container__hidden">
           <div class="destination">
             <input
