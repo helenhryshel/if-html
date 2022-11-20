@@ -257,7 +257,7 @@ li {
 }
 
 .top-section__main-title {
-  margin-top: 122px;
+  margin-top: 116px;
   font-size: 50px;
   color: var(--general-white);
 }
@@ -275,6 +275,7 @@ li {
   display: flex;
   flex-direction: column;
   border-radius: 8px;
+  margin-top: 160px;
 }
 
 .top-section__search {
@@ -293,8 +294,19 @@ li {
   outline: none;
   font-weight: 400;
   font-size: 18px;
+  padding-left: 25px;
   color: var(--text-color);
   background-color: var(--general-white);
+  position: relative;
+}
+
+.label-destination {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--general-white);
+  position: absolute;
+  bottom: 35%;
+  left: 9%;
 }
 
 .top-section__check {
@@ -306,7 +318,18 @@ li {
   font-size: 18px;
   color: var(--text-color);
   text-align: center;
+  position: relative;
 }
+
+.label-check {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--general-white);
+  position: absolute;
+  bottom: 35%;
+  left: 37%;
+}
+
 .top-section__check:focus {
   border: 3px solid var(--accent-yellow);
   border-radius: 8px;
@@ -350,9 +373,20 @@ li {
 
 .top-section__apps {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 16px;
   height: 40px;
   padding-top: 68px;
+}
+
+.top-section__apps_google {
+  width: 135px;
+  height: 40px;
+}
+
+.top-section__apps_apple {
+  width: 120px;
+  height: 40px;
 }
 
 .search-container__hidden {
@@ -922,10 +956,10 @@ li {
 
   .top-section__header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 48px;
     margin-top: 30px;
-    gap: 88px;
+    gap: 101px;
   }
 
   .top-section__items {
