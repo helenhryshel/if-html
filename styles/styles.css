@@ -755,8 +755,8 @@ li {
 .sale-container {
   display: flex;
   flex-direction: column;
-  height: 50vh;
   padding: 0 15px;
+  margin-bottom: 120px;
 }
 
 .sale-container-mobile {
@@ -824,6 +824,201 @@ li {
   left: 96%;
   bottom: 73%;
   cursor: pointer;
+}
+
+/* Reviews section */
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: var(--general-white);
+  position: relative;
+}
+
+.reviews-container__title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 118px;
+}
+
+.reviews-container__heading-title {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.reviews-container__navigation {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.reviews-container__item {
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews-img {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.reviews-container__image-bali {
+  background-image: url("../images/bali.png");
+}
+
+.reviews-container__image-rotterdam {
+  background-image: url("../images/rotterdam.png");
+}
+
+.reviews-container__image-ourika {
+  background-image: url("../images/ourika.png");
+}
+
+.reviews__price {
+  display: flex;
+  background: rgba(56, 56, 56, 0.7);
+  position: absolute;
+  top: 88%;
+  width: 100%;
+  height: 48px;
+  color: var(--general-white);
+  font-size: 18px;
+  font-weight: 400;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.reviews__description {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-blue);
+  padding: 24px;
+  height: 360px;
+}
+
+.reviews__place {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews__country {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.place {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--button-color);
+  cursor: pointer;
+}
+
+.country {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--button-color);
+  cursor: pointer;
+}
+
+.reviews__score {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.score-resort {
+  width: 48px;
+  height: 32px;
+  background-image: url("../images/score-bali.png");
+}
+
+.score-hostel {
+  width: 48px;
+  height: 32px;
+  background-image: url("../images/score-rotterdam.png");
+}
+
+.score-hotel {
+  width: 48px;
+  height: 32px;
+  background-image: url("../images/score-ourika.png");
+}
+
+.reviews {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--gray-line);
+}
+
+.reviews__person {
+  display: flex;
+  flex-direction: column;
+}
+
+.persons {
+  display: flex;
+  gap: 23px;
+  margin-top: 31px;
+  margin-bottom: 19px;
+}
+
+.image {
+  background-image: url("../images/person.svg");
+  width: 54px;
+  height: 54px;
+}
+
+.about-person {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.person-name {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.person-country {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--gray-line);
+}
+
+.person-text {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 120px;
+  text-align: start;
+}
+
+.reviews__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 24%;
+  right: -2.5%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--stroke-color);
+  box-shadow: 4px 4px 10px -3px var(--text-color);
+  cursor: pointer;
+}
+
+.reviews__polygon {
+  width: 9px;
+  height: 21px;
+  background-image: url("../images/polygon.svg");
 }
 
 /* Footer's styles*/
@@ -898,6 +1093,31 @@ li {
 
   .img-4 {
     display: none;
+  }
+}
+
+@media (max-width: 1240px) {
+  .reviews-container__item {
+    width: 50%;
+    align-items: center;
+  }
+
+  .rev-ourika {
+    display: none;
+  }
+
+  .reviews-img {
+    width: 370px;
+    height: 370px;
+    background-size: cover;
+  }
+
+  .reviews__description {
+    width: 370px;
+  }
+
+  .reviews__price {
+    top: 87%;
   }
 }
 
@@ -1349,6 +1569,74 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .reviews-container__heading-title {
+    font-size: 28px;
+  }
+
+  .rev-rotterdam {
+    display: none;
+  }
+
+  .reviews-img {
+    width: 325px;
+    height: 327px;
+    background-size: cover;
+  }
+
+  .reviews__description {
+    width: 325px;
+  }
+
+  .reviews__price {
+    display: none;
+  }
+
+  .reviews__circle {
+    display: none;
+  }
+
+  .reviews-container__title {
+    margin-bottom: 32px;
+    margin-top: 40px;
+  }
+  .place {
+    font-size: 15px;
+  }
+
+  .country {
+    font-size: 15px;
+  }
+
+  .reviews {
+    font-size: 12px;
+  }
+
+  .person-name {
+    font-size: 15px;
+  }
+
+  .person-country {
+    font-size: 15px;
+  }
+
+  .image {
+    width: 43px;
+    height: 43px;
+    background-size: contain;
+  }
+
+  .person-text {
+    font-size: 15px;
+  }
+
+  .reviews-container {
+    background-color: var(--light-blue);
+  }
+
+  .reviews-container__navigation {
+    margin-bottom: 0;
   }
 }
 
