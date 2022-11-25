@@ -11,6 +11,7 @@
   --stroke-color: #f3f3f4;
   --light-gray: #e5e5e5;
   --shadow-color: #000000;
+  --carousel-color: #333333;
 }
 
 * {
@@ -934,10 +935,20 @@ li {
   align-items: end;
 }
 
-.score-resort {
+.score-place {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 48px;
   height: 32px;
-  background-image: url("../images/score-bali.png");
+  background-color: var(--general-blue);
+  border-radius: 8px;
+}
+
+.score-number {
+  font-size: 19px;
+  font-weight: 400;
+  color: var(--general-white);
 }
 
 .score-hostel {
@@ -1019,6 +1030,24 @@ li {
   width: 9px;
   height: 21px;
   background-image: url("../images/polygon.svg");
+}
+
+.reviews-carousel {
+  display: none;
+}
+
+.circle-full {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--carousel-color);
+}
+
+.circle-empty {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid var(--carousel-color);
 }
 
 /* Footer's styles*/
@@ -1331,6 +1360,7 @@ li {
     align-items: center;
     padding: 0;
     height: auto;
+    order: 2;
   }
 
   .footer__container {
@@ -1632,10 +1662,37 @@ li {
 
   .reviews-container {
     background-color: var(--light-blue);
+    order: 0;
   }
 
   .reviews-container__navigation {
     margin-bottom: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reviews__description {
+    height: 300px;
+  }
+
+  .reviews-carousel {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 40px;
+  }
+
+  .circle-full {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--carousel-color);
+  }
+
+  .circle-empty {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid var(--carousel-color);
   }
 }
 
@@ -1738,6 +1795,7 @@ li {
     height: 20vh;
     padding: 0 15px;
     background-color: var(--general-white);
+    order: 1;
   }
 
   .sale-container__close-lit {
