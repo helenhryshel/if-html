@@ -30,16 +30,7 @@
                   class="top-section__logo-account"
                 ></button>
               </div>
-              <div class="hamburger-menu">
-                <input id="menu" type="checkbox" />
-                <label class="menu-btn" for="menu">
-                  <span></span>
-                </label>
-                <ul class="menubox">
-                  <li><a class="menu-item" href="#">Stays</a></li>
-                  <li><a class="menu-item" href="#">Attractions</a></li>
-                </ul>
-              </div>
+              <div class="hamburger-menu"></div>
             </div>
           </header>
           <section>
@@ -48,47 +39,39 @@
               to live, work or just relax
             </h1>
           </section>
-          <form>
-            <div class="top-section__search-container">
-              <div class="top-section__search">
-                <div class="top-section__elements">
-                  <div class="label-destination">
-                    <label for="destination"
-                      >Your destination or hotel name</label
-                    >
-                  </div>
-                  <input
-                    class="top-section__destination"
-                    type="text"
-                    id="destination"
-                    placeholder="New York"
-                  />
-                </div>
-                <div class="top-section__elements">
-                  <div class="label-check">
-                    <label for="check">Check-in — Check-out</label>
-                  </div>
-                  <input
-                    class="top-section__check"
-                    type="text"
-                    id="check"
-                    placeholder="Tue 15 Sept — Sat 19 Sept"
-                  />
-                </div>
-                <div class="top-section__elements">
-                  <input
-                    class="top-section__people"
-                    type="text"
-                    placeholder="2 Adults — 0 Children — 1 Room"
-                  />
-                </div>
-                <div>
-                  <button class="top-section__button items__size" type="submit">
-                    Search
-                  </button>
-                </div>
+          <form class="top-section__search-container">
+            <div class="top-section__elements destination-width">
+              <div class="label-destination">
+                <label for="destination">Your destination or hotel name</label>
               </div>
+              <input
+                class="top-section__destination"
+                type="text"
+                id="destination"
+                placeholder="New York"
+              />
             </div>
+            <div class="top-section__elements check-width">
+              <div class="label-check">
+                <label for="check">Check-in — Check-out</label>
+              </div>
+              <input
+                class="top-section__check"
+                type="text"
+                id="check"
+                placeholder="Tue 15 Sept — Sat 19 Sept"
+              />
+            </div>
+            <div class="top-section__elements people-width">
+              <input
+                class="top-section__people"
+                type="text"
+                placeholder="2 Adults — 0 Children — 1 Room"
+              />
+            </div>
+            <button class="top-section__button items__size" type="submit">
+              Search
+            </button>
           </form>
           <div class="search-container__hidden">
             <div class="destination">
@@ -99,14 +82,14 @@
               />
             </div>
             <div class="check">
-              <div class="check-border__1">
+              <div class="check-border">
                 <input
                   class="check-in hide"
                   type="text"
                   placeholder="Check-in date"
                 />
               </div>
-              <div class="check-border__2">
+              <div class="check-border">
                 <input
                   class="check-out hide"
                   type="text"
@@ -137,9 +120,7 @@
                 />
               </div>
             </div>
-            <div class="button__hide">
-              <button class="button" type="submit">Search</button>
-            </div>
+            <button class="button" type="submit">Search</button>
           </div>
           <div class="top-section__apps">
             <div class="top-section__apps_google">
@@ -795,7 +776,7 @@
           </div>
         </div>
         <div class="footer__copyright">
-          <span>&#169; 2022Triphouse, Inc. All rights reserved</span>
+          <span>&#169; 2022 Triphouse, Inc. All rights reserved</span>
         </div>
       </footer>
     </div>
