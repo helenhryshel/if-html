@@ -500,7 +500,7 @@ li {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  width: 100%;
+  padding-right: 31px;
 }
 
 /* Best destination's styles */
@@ -1033,10 +1033,6 @@ li {
     width: 33%;
   }
 
-  .guests-container__navigation {
-    justify-content: space-evenly;
-  }
-
   .best-destination__navigation {
     margin-left: 69px;
   }
@@ -1061,17 +1057,21 @@ li {
   }
 
   .reviews-img {
-    width: 370px;
-    height: 370px;
+    width: 395px;
+    height: 395px;
     background-size: cover;
   }
 
   .reviews__description {
-    width: 370px;
+    width: 395px;
   }
 
   .reviews__price {
     top: 87%;
+  }
+
+  .reviews-container__image-rotterdam {
+    position: relative;
   }
 }
 
@@ -1411,12 +1411,13 @@ li {
 
   .guests-container__item {
     width: 50%;
+    align-items: center;
   }
 
   .guests-container__navigation {
     margin: 30px 0 40px 0;
     padding: 0;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
   .circle {
