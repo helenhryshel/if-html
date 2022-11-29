@@ -337,6 +337,7 @@ li {
   background-color: var(--accent-yellow);
   height: 4px;
   width: 100px;
+  border: none;
 }
 
 .advantage-container__heading-title {
