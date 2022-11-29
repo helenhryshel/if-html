@@ -29,68 +29,51 @@
                   type="submit"
                   class="top-section__logo-account"
                 ></button>
-              </div>
-              <div class="hamburger-menu">
-                <input id="menu" type="checkbox" />
-                <label class="menu-btn" for="menu">
-                  <span></span>
-                </label>
-                <ul class="menubox">
-                  <li><a class="menu-item" href="#">Stays</a></li>
-                  <li><a class="menu-item" href="#">Attractions</a></li>
-                </ul>
+                <button name="button" class="hamburger-menu"></button>
               </div>
             </div>
           </header>
-          <section>
+          <div>
             <h1 class="top-section__main-title item__size">
               Discover stays<br />
               to live, work or just relax
             </h1>
-          </section>
-          <form>
-            <div class="top-section__search-container">
-              <div class="top-section__search">
-                <div class="top-section__elements">
-                  <div class="label-destination">
-                    <label for="destination"
-                      >Your destination or hotel name</label
-                    >
-                  </div>
-                  <input
-                    class="top-section__destination"
-                    type="text"
-                    id="destination"
-                    placeholder="New York"
-                  />
-                </div>
-                <div class="top-section__elements">
-                  <div class="label-check">
-                    <label for="check">Check-in — Check-out</label>
-                  </div>
-                  <input
-                    class="top-section__check"
-                    type="text"
-                    id="check"
-                    placeholder="Tue 15 Sept — Sat 19 Sept"
-                  />
-                </div>
-                <div class="top-section__elements">
-                  <input
-                    class="top-section__people"
-                    type="text"
-                    placeholder="2 Adults — 0 Children — 1 Room"
-                  />
-                </div>
-                <div>
-                  <button class="top-section__button items__size" type="submit">
-                    Search
-                  </button>
-                </div>
+          </div>
+          <form class="top-section__search-container_desktop">
+            <div class="top-section__elements destination-width">
+              <div class="label-destination">
+                <label for="destination">Your destination or hotel name</label>
               </div>
+              <input
+                class="top-section__destination"
+                type="text"
+                id="destination"
+                placeholder="New York"
+              />
             </div>
+            <div class="top-section__elements check-width">
+              <div class="label-check">
+                <label for="check">Check-in — Check-out</label>
+              </div>
+              <input
+                class="top-section__check"
+                type="text"
+                id="check"
+                placeholder="Tue 15 Sept — Sat 19 Sept"
+              />
+            </div>
+            <div class="top-section__elements people-width">
+              <input
+                class="top-section__people"
+                type="text"
+                placeholder="2 Adults — 0 Children — 1 Room"
+              />
+            </div>
+            <button class="top-section__button items__size" type="submit">
+              Search
+            </button>
           </form>
-          <div class="search-container__hidden">
+          <form class="top-section__search-container_mobile">
             <div class="destination">
               <input
                 class="hidden__destination hide"
@@ -99,14 +82,14 @@
               />
             </div>
             <div class="check">
-              <div class="check-border__1">
+              <div class="check-border">
                 <input
                   class="check-in hide"
                   type="text"
                   placeholder="Check-in date"
                 />
               </div>
-              <div class="check-border__2">
+              <div class="check-border">
                 <input
                   class="check-out hide"
                   type="text"
@@ -137,10 +120,8 @@
                 />
               </div>
             </div>
-            <div class="button__hide">
-              <button class="button" type="submit">Search</button>
-            </div>
-          </div>
+            <button class="button" type="submit">Search</button>
+          </form>
           <div class="top-section__apps">
             <div class="top-section__apps_google">
               <a href="https://play.google.com/store/apps" target="_blank">
@@ -590,6 +571,134 @@
         </div>
         <div class="sale-container__text-2">Install</div>
       </div>
+      <section class="reviews-container">
+        <div class="container">
+          <div class="reviews-container__title">
+            <h2 class="reviews-container__heading-title">Guests reviews</h2>
+          </div>
+          <div class="reviews-container__navigation">
+            <div class="reviews-container__item rev-bali">
+              <div class="reviews-container__image-bali reviews-img">
+                <div class="reviews__price">
+                  <div>From 250 USD</div>
+                </div>
+              </div>
+              <div class="reviews__description">
+                <div class="reviews__place">
+                  <div class="reviews__country">
+                    <p class="place">Ubud Bali Resort&SPA</p>
+                    <p class="country">Bali, Indonesia</p>
+                  </div>
+                  <div class="reviews__score">
+                    <div class="score-place">
+                      <p class="score-number">9,4</p>
+                    </div>
+                    <p class="reviews">1324 reviews</p>
+                  </div>
+                </div>
+                <div class="reviews__person">
+                  <div class="persons">
+                    <div class="image"></div>
+                    <div class="about-person">
+                      <p class="person-name">Hanna Ivanova</p>
+                      <p class="person-country">&#127482;&#127462; Ukraine</p>
+                    </div>
+                  </div>
+                  <div class="person-text">
+                    Great location, really pleasant and clean rooms, but the
+                    thing that makes this such a good place to stay are the
+                    staff. All of the people are incredibly helpful and generous
+                    with their time and advice.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews-container__item rev-rotterdam">
+              <div class="reviews-container__image-rotterdam reviews-img">
+                <div class="reviews__price">
+                  <div>From 40 USD</div>
+                </div>
+              </div>
+              <div class="reviews__description">
+                <div class="reviews__place">
+                  <div class="reviews__country">
+                    <p class="place">King Kong Hostel</p>
+                    <p class="country">Rotterdam, Netherlands</p>
+                  </div>
+                  <div class="reviews__score">
+                    <div class="score-place">
+                      <p class="score-number">8,9</p>
+                    </div>
+                    <p class="reviews">2016 reviews</p>
+                  </div>
+                </div>
+                <div class="reviews__person">
+                  <div class="persons">
+                    <div class="image"></div>
+                    <div class="about-person">
+                      <p class="person-name">Adam Smith</p>
+                      <p class="person-country">&#127482;&#127480; USA</p>
+                    </div>
+                  </div>
+                  <div class="person-text">
+                    I've been in this hostel for a month and here is the best
+                    hostel of all Excellent management of excellent and ethical
+                    staff and bedrooms Bathrooms are always clean and excellent
+                    Most importantly, those who work here are kind and
+                    good-natured.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews-container__item rev-ourika">
+              <div class="reviews-container__image-ourika reviews-img">
+                <div class="reviews__price">
+                  <div>From 100 USD</div>
+                </div>
+              </div>
+              <div class="reviews__description">
+                <div class="reviews__place">
+                  <div class="reviews__country">
+                    <p class="place">Rokoko Hotel</p>
+                    <p class="country">Ourika, Marocco</p>
+                  </div>
+                  <div class="reviews__score">
+                    <div class="score-place">
+                      <p class="score-number">9,1</p>
+                    </div>
+                    <p class="reviews">815 reviews</p>
+                  </div>
+                </div>
+                <div class="reviews__person">
+                  <div class="persons">
+                    <div class="image"></div>
+                    <div class="about-person">
+                      <p class="person-name">Anika Messer</p>
+                      <p class="person-country">&#127465;&#127466; Germany</p>
+                    </div>
+                  </div>
+                  <div class="person-text">
+                    Efficient, friendly, professional, and appropriately
+                    attentive. Great hotel in a great location. Easy access to
+                    all the surrounding historical sites. Staff is fantastic.
+                    Will definitely stay at this location during my next stay in
+                    Marocco.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__circle">
+              <div class="reviews__polygon"></div>
+            </div>
+            <div class="reviews-carousel">
+              <div class="circle-full"></div>
+              <div class="circle-empty"></div>
+              <div class="circle-empty"></div>
+              <div class="circle-empty"></div>
+            </div>
+          </div>
+        </div>
+      </section>
       <footer class="footer">
         <div class="footer__hidden">
           <svg
@@ -667,7 +776,7 @@
           </div>
         </div>
         <div class="footer__copyright">
-          <span>&#169; 2022Triphouse, Inc. All rights reserved</span>
+          <span>&#169; 2022 Triphouse, Inc. All rights reserved</span>
         </div>
       </footer>
     </div>
