@@ -1,5 +1,4 @@
 @import url("fonts.css");
-
 :root {
   --general-white: #ffffff;
   --accent-yellow: #f5bd41;
@@ -38,6 +37,7 @@ ul {
 
 li {
   margin-bottom: 24px;
+  cursor: pointer;
 }
 
 /*top-section's styles*/
@@ -45,7 +45,6 @@ li {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 115vh;
   background-image: url("../images/castelmezzano.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,14 +54,14 @@ li {
 .top-section__header {
   display: flex;
   justify-content: space-between;
-  height: 46px;
   margin-top: 50px;
+  margin-bottom: 202px;
   font-weight: 400;
   color: var(--general-white);
 }
 
 .container {
-  max-width: 1232px;
+  max-width: 1265px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
@@ -89,7 +88,7 @@ li {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 34px;
+  gap: 27px;
   height: 46px;
   font-weight: 400;
   font-size: 24px;
@@ -176,6 +175,7 @@ li {
 
 .top-section__main-title {
   margin-top: 116px;
+  margin-bottom: 145px;
   font-size: 50px;
   font-weight: 500;
   color: var(--general-white);
@@ -195,7 +195,7 @@ li {
   height: 64px;
   border-radius: 8px;
   background-color: var(--general-white);
-  margin-top: 160px;
+  margin-bottom: 120px;
 }
 
 .top-section__destination {
@@ -206,7 +206,7 @@ li {
   outline: none;
   font-weight: 400;
   font-size: 18px;
-  padding-left: 25px;
+  padding-left: 29px;
   color: var(--text-color);
   background-color: var(--general-white);
 }
@@ -216,8 +216,8 @@ li {
   font-weight: 400;
   color: var(--general-white);
   position: absolute;
-  top: -56%;
-  left: 10%;
+  top: -68%;
+  left: 7%;
 }
 
 .top-section__check {
@@ -229,6 +229,7 @@ li {
   font-size: 18px;
   color: var(--text-color);
   text-align: center;
+  padding-left: 79px;
 }
 
 .label-check {
@@ -236,8 +237,8 @@ li {
   font-weight: 400;
   color: var(--general-white);
   position: absolute;
-  top: -56%;
-  left: 27%;
+  top: -68%;
+  left: 32%;
 }
 
 .top-section__check:focus {
@@ -258,6 +259,7 @@ li {
 .top-section__people {
   width: 100%;
   height: 64px;
+  padding-right: 8px;
   outline: none;
   font-weight: 400;
   font-size: 18px;
@@ -267,7 +269,7 @@ li {
 }
 
 .top-section__button {
-  width: 18%;
+  width: 16%;
   cursor: pointer;
   background-color: var(--button-color);
   border-radius: 8px;
@@ -298,7 +300,7 @@ li {
   justify-content: center;
   gap: 16px;
   height: 40px;
-  padding-top: 68px;
+  margin-bottom: 120px;
 }
 
 .top-section__apps_google {
@@ -361,6 +363,7 @@ li {
   flex-direction: column;
   align-items: center;
   width: 25%;
+  cursor: pointer;
 }
 
 .advantage-container__image-support {
@@ -402,6 +405,7 @@ li {
 }
 
 /*Guests section*/
+
 .guests-container {
   display: flex;
   flex-direction: column;
@@ -481,7 +485,7 @@ li {
   align-items: center;
   position: absolute;
   top: 28%;
-  right: -3.5%;
+  right: -1.5%;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -501,6 +505,7 @@ li {
   align-items: flex-start;
   flex-direction: column;
   padding-right: 31px;
+  cursor: pointer;
 }
 
 /* Best destination's styles */
@@ -519,6 +524,7 @@ li {
   flex-direction: column;
   margin-top: 120px;
   margin-bottom: 104px;
+  padding-left: 25px;
 }
 
 .best-destination__title {
@@ -532,7 +538,7 @@ li {
 }
 
 .best-destination__navigation {
-  width: 54%;
+  width: 52%;
   background-color: var(--light-gray);
   height: 64px;
   border-radius: 8px;
@@ -553,7 +559,7 @@ li {
   outline: none;
   border: none;
   width: 100%;
-  padding: 0 20px;
+  padding: 0 28px;
   font-size: 24px;
   cursor: pointer;
   border-radius: 8px;
@@ -572,8 +578,8 @@ li {
 
 .best-destination__item {
   display: flex;
-  justify-content: start;
-  gap: 14px;
+
+  gap: 15px;
   margin-top: 64px;
   margin-bottom: 48px;
 }
@@ -652,6 +658,8 @@ li {
   display: flex;
   justify-content: center;
   margin-bottom: 121px;
+  padding-left: 28px;
+  margin-top: 4px;
 }
 
 .destination__circle {
@@ -943,7 +951,7 @@ li {
   align-items: center;
   position: absolute;
   top: 24%;
-  right: -2.5%;
+  right: -1.5%;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -1013,6 +1021,7 @@ li {
   font-size: 14px;
   font-weight: 400;
   padding-left: 40px;
+  margin-bottom: 61px;
 }
 
 .footer__hidden {
@@ -1102,6 +1111,7 @@ li {
     flex-direction: column;
     gap: 8px;
     margin-top: 31px;
+    margin-bottom: 60px;
     padding: 8px;
     background-color: var(--accent-yellow);
   }
@@ -1214,6 +1224,14 @@ li {
 }
 
 @media (max-width: 860px) {
+  .top-section__apps {
+    margin-bottom: 40px;
+  }
+
+  .top-section__search-container_mobile {
+    margin-bottom: 40px;
+  }
+
   .advantage-container__heading-title {
     font-size: 28px;
     margin-top: 28px;
@@ -1317,6 +1335,7 @@ li {
     justify-content: space-between;
     height: 48px;
     margin-top: 16px;
+    margin-bottom: 52px;
     padding: 0 16px;
   }
 
@@ -1327,6 +1346,7 @@ li {
 
   .top-section__main-title {
     margin-top: 52px;
+    margin-bottom: 32px;
     font-size: 30px;
   }
 

@@ -19,5 +19,8 @@
   "homepage": "https://github.com/helenhryshel/if-html#readme",
   "devDependencies": {
     "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "swiper": "^8.4.5"
   }
 }
